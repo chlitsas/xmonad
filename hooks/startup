@@ -1,0 +1,11 @@
+# set the bg
+#xsetroot -bg grey 
+feh --bg-scale /home/chris/Pictures/Wallpapers/zalgar.jpg
+# set the cursor
+xsetroot -cursor_name left_ptr
+xmobar /home/chris/.xmobarrc
+#xmobar /home/christos/.xmobarrc2
+setxkbmap 'us,gr' -option 'grp:lwin_toggle'
+setxkbmap -print
+#setxkbmap -option grp:lwin_toggle us,gr
+~/.dropbox-dist/dropboxd

@@ -1,0 +1,16 @@
+#! /bin/bash
+
+#cpu=$(sensors | grep temp3: | awk '{print $2}')
+gpu=$(sensors | grep temp1: | awk '{print $2}')
+
+x1="|<fc=#00ffff> CPU:"
+y1="</fc>"
+x2="|<fc=#00ffff> GPU:"
+y2="</fc>|"
+#echo "${x1}${cpu}${y1} ${x2}${gpu}${y2}"
+echo "${x2} ${gpu}${y2}"
+
+### echo "|<fc=#ff0000> CPU </fc>|"
+### echo $cpu
+### echo "|<fc=#0000ff> GPU </fc>|"
+
